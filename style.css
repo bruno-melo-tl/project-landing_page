@@ -37,6 +37,16 @@ a {
     margin: auto;
 }
 
+.image-placeholder {
+    height: 300px;
+    width: auto;
+}
+
+.image-header {
+    height: 300px;
+    width: auto;
+}
+
 .container-text {
     display: flex;
     flex-direction: column;
@@ -45,14 +55,16 @@ a {
 }
 
 .hero-button {
-    margin-top: 8px;
-    padding: 5px;
-    max-width: 100px;
-    color: #f9faf8;
-    font-weight: 600;
+    width: 120px;
+    padding: 8px 16px;
     border-radius: 8px;
+    color: #f9faf8;
+    font-weight: 900;
     border-style: none;
+    margin-top: 8px;
 }
+
+
 /* FIM DO CABEÇALHO */
 
 .information {
@@ -115,7 +127,7 @@ a {
 }
 
 button, 
-.action {
+.action-body {
     background-color: #3882f6;
 }
 
@@ -155,27 +167,18 @@ button,
  
 /* FIM DO INFORMATION */
 
-.action {
-    width: 40%;
-    margin: 0 auto;
+
+
+.action-body {
+    margin: 128px 256px;
     padding: 40px 80px;
     border-radius: 8px;
     display: flex;
-    flex-direction: column;
-}
-
-
-.action-container {
-    display: flex;
     justify-content: space-between;
-}
-
-.action-body {
-    height: 300px;
-    display: flex;
     align-items: center;
-
+    max-width: 80%;  
 }
+
 
 
 .call-title,
