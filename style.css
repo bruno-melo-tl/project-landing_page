@@ -127,7 +127,7 @@ a {
 }
 
 button, 
-.action-body {
+.action {
     background-color: #3882f6;
 }
 
@@ -148,14 +148,11 @@ button,
 
 .container-quote {
     display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    
+    flex-direction: column;  
 }
 
 .quote-text {
-    font: italic 300 36px sans-serif;
+    font: italic 300 36px "Roboto", sans-serif;
     color: #1f2937;
     max-width: 820px;
 }
@@ -167,19 +164,24 @@ button,
  
 /* FIM DO INFORMATION */
 
-
-
 .action-body {
-    margin: 128px 256px;
-    padding: 40px 80px;
-    border-radius: 8px;
+    height: 400px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 80%;  
+    width: 100%;
+    align-items: center; /*Centraliza o layout de ação.*/
 }
 
 
+.action {
+    width: 50%;
+    margin: 0 auto;
+    padding: 40px 80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15%;
+}
 
 .call-title,
 .call-button {
