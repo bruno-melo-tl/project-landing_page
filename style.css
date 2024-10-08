@@ -91,6 +91,7 @@ a {
     height: 150px;
     width: 150px;
     border-radius: 8px;
+    border: 4px solid #3882f6;
 }
 
 .text {
